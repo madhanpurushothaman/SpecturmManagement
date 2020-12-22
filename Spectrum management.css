@@ -28,8 +28,15 @@
 }
 .number {
   position: absolute;
+  
   background-color:  rgb(226, 0, 116); 
   border-radius: 50%;
+  
+    right: 23px;
+    top: 16px;
+    width: 10px;
+    height: 10px;
+
 }
 .content_wrapper {
   width:99%;
