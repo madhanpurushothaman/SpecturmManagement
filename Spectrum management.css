@@ -1928,14 +1928,13 @@ animation:unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
   }
 
 .line-clamp{
-  width: 450px;
+  
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
 }
 .line-clamp-activate{
-  width: 450px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 6;

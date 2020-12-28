@@ -353,12 +353,13 @@ function row_expansion(m) {
 function change1(c) {
   var content = c.parentElement.nextElementSibling;
   console.log(content);
+  console.log(c.parentElement);
 
   if (content.style.display === "block") {
-    c.classList.remove("remove-border");
+    c.parentElement.classList.remove("remove-border");
     content.style.display = "none";
   } else {
-    c.classList.add("remove-border");
+    c.parentElement.classList.add("remove-border");
     content.style.display = "block";
   }
 }
